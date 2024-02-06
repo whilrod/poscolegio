@@ -1,0 +1,28 @@
+body{
+    /*background-image: linear-gradient(180deg, red, yellow);*/
+    background-color: lightgray;
+    
+
+}
+.banner .bg-3{
+    width: 100%;
+    height: 150px;
+    background-image: linear-gradient(180deg, rgb(9, 192, 18), lightgrey);
+}
+
+.banner{
+    width: 100%;
+    height: 150px;
+    background-image: linear-gradient(180deg, rgb(9, 192, 18), lightgrey);
+}
+
+.foot {
+    text-align: center;
+    padding: 3px;
+    background-color: DarkSalmon;
+    color: white;
+    position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}

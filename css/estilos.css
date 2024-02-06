@@ -1,0 +1,283 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.contenedor{
+    width: 40%;
+    padding: 10% 0;
+    margin: auto;
+    display:grid;
+    grid-template-columns: repeat(3,3fr);
+    gap: 20px;
+}
+
+.signUp_user2{
+    margin: 40px;
+    padding: 20%;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container_signUp_user2{
+    border: 3px solid #283747;
+    border-radius: 10px;
+    width: 60%;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+    }
+
+button{
+    background-color:darkorchid;
+    
+}
+
+button:hover{
+    background-color:coral;
+    color: white;
+    
+}
+
+.tbutton{
+    max-width: 85%;
+    max-height: 80%;
+    align-content: center;
+}
+
+.tbutton{
+    
+    align-content: center;
+}
+
+h1{
+    text-align: center;
+    font-size: 5rem;
+    text-shadow:1px 1px 2px rgb(252, 8, 8), 0 0 25px blue, 0 0 5px darkblue;
+}
+
+body{
+    /*background-image: linear-gradient(180deg, red, yellow);*/
+    background-color: lightgrey;
+    font-family: 'Roboto';
+    min-height: 100vh;
+
+}
+
+.banner{
+    width: 100%;
+    height: 150px;
+    background-image: linear-gradient(180deg, rgb(9, 192, 18), lightgrey);
+}
+
+.card{
+    border-radius: 10px;
+    min-height: 10px;
+    font-weight: bold;
+    padding: 20px;
+    position: relative;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center center;
+    margin:auto;
+}
+
+.contenedor .textos{
+    height: 22%;
+    display: grid;
+    grid-template-rows: 1fr;
+    background-color: gray;
+    
+}
+
+.contenedor .titulo{
+    color:blue;
+    font-weight: bold;
+    text-align: center;
+    vertical-align: baseline;
+    text-transform: uppercase
+    
+}
+
+.image {
+    height: 150px;
+    width:  150px;  
+    image-rendering: high-quality;
+  }
+
+.doble{
+    width: auto;
+}
+
+.foot {
+    text-align: center;
+    padding: 3px;
+    background-color: DarkSalmon;
+    color: white;
+    position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+table, th, td {
+    border: 2px solid black;
+    border-collapse: collapse;
+  }
+
+th{
+    font-size:30px;
+}
+
+table.dataTable thead {
+    background: #007bff;
+    color:white;
+}
+
+.caja{
+  /* border: 1px solid; */
+  padding: 5px;
+  box-shadow: 10px 10px 50px 1px #7c7c81;
+  border-radius: 10px;
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+img {
+ max-width: 100%;
+ max-height: 100%;
+ object-fit: contain;
+}
+
+table.uniformes thead{
+    background: linear-gradient(to right, #0575e6, #00f260);
+    color:white;
+}
+
+@media screen and (max-device-width:380){
+    .contenedor {
+        width: 40%;
+        padding: 10% 0;
+        margin: 60px;
+        display: grid;
+        grid-template-columns: repeat(2,3fr);
+        gap: 20px;
+    }
+     h1 {
+        text-align: center;
+        font-size: 2rem;
+        text-shadow: 1px 1px 2px rgb(252 8 8), 0 0 25px blue, 0 0 5px darkblue;
+    }
+    .image {
+    height: 80px;
+    width:  80px;  
+    image-rendering: high-quality;
+  }
+}
+
+@media screen and (max-device-width:625){
+    .contenedor {
+        width: 40%;
+        padding: 10% 0;
+        margin: 60px;
+        display: grid;
+        grid-template-columns: repeat(2,3fr);
+        gap: 20px;
+    }
+    h1 {
+        text-align: center;
+        font-size: 3rem;
+        text-shadow: 1px 1px 2px rgb(252 8 8), 0 0 25px blue, 0 0 5px darkblue;
+    }
+     .image {
+    height: 80px;
+    width:  80px;  
+    image-rendering: high-quality;
+  }
+}
+
+@media screen and (max-device-width:780px) {
+    img {
+        max-width: 100%;
+        max-height: 100%;
+        object-fit: contain;
+       }
+    .img img{
+         width:100%;
+      } 
+      
+    
+    .banner{
+        width: 100%;
+    }
+    body{
+        /*background-image: linear-gradient(180deg, red, yellow);*/
+        background-color: lightgray;
+        font-family: 'Roboto';
+        min-height: 20vh;
+    
+    }
+    .contenedor{
+    width: 30%;
+    padding: 20% 0;
+    margin: 10px;
+    display:grid;
+    grid-template-columns: repeat(3,2fr);
+    gap: 20px;
+    }
+    .card{
+        border-radius: 10px;
+        min-height: 50px;
+        font-weight: bold;
+        padding: 10px;
+        position: relative;
+        overflow: hidden;
+        background-size: cover;
+        background-position: center center;
+        margin:auto;
+    }
+    .banner{
+        width: 100%;
+        height: 80px;
+        background-image: linear-gradient(180deg, rgb(9, 192, 18), lightgrey);
+    }
+    h1{
+        
+        font-size: 3rem;
+        
+    }
+    
+    .image {
+    height: 100px;
+    width:  100px;  
+    image-rendering: high-quality;
+  }
+  
+  .titulo{
+      font-size: 0.8rem;
+  }
+
+    
+}
+@media screen and (min-width:1000px){
+    .contenedor {
+        width: 40%;
+        padding: 0 0;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(3,3fr);
+        gap: 20px;
+    }
+}
+
+
+
